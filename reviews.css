@@ -1,0 +1,30 @@
+.reviewsSection {
+  background: White;
+  margin: 1rem;
+}
+.reviewsSection h2 {
+  padding: 1rem;
+  border-bottom: 1px solid #c7c6c6;
+}
+.reviewsSection .reviews {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 20rem;
+}
+.reviewsSection .reviews .date {
+  margin-top: 1rem;
+  color: #bbb8b8;
+}
+.reviewsSection .reviews .user {
+  font-size: 1.25rem;
+}
+.reviewsSection .reviews .time {
+  color: #ada9a9;
+  margin-left: 0.75rem;
+}
+.reviewsSection .reviews .text {
+  margin-right: 3rem;
+}/*# sourceMappingURL=reviews.css.map */

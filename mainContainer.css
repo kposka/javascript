@@ -1,0 +1,9 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 360px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  background: #e9e6e6;
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=mainContainer.css.map */

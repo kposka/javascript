@@ -1,0 +1,44 @@
+.expenses{
+    margin:2rem 1rem 5rem 1rem;
+    padding-bottom:1rem;
+    background:white;
+    .search{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom:0.1rem solid rgb(209, 204, 204);
+        h1{
+            margin-left:1rem;
+        }
+        form{
+            margin-right:5rem;
+            button{
+                background:rgb(121, 121, 238);
+                color:rgba(255,255,255);
+                padding:0.25rem;
+                border-radius:0.5rem;
+            }
+        }
+    }
+    table{
+        width:100%;
+        padding:1rem;
+        border-collapse:collapse;
+        thead{
+
+            tr th{
+                padding-bottom:1rem;
+            }
+            
+        }
+        tbody{
+            tr{
+                text-align: center;
+                
+            }
+            tr:nth-child(even){
+                background:rgb(236, 234, 234);
+            }
+        }
+    }
+}

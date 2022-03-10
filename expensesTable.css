@@ -1,0 +1,37 @@
+.expenses {
+  margin: 2rem 1rem 5rem 1rem;
+  padding-bottom: 1rem;
+  background: white;
+}
+.expenses .search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1rem solid #d1cccc;
+}
+.expenses .search h1 {
+  margin-left: 1rem;
+}
+.expenses .search form {
+  margin-right: 5rem;
+}
+.expenses .search form button {
+  background: #7979ee;
+  color: white;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+.expenses table {
+  width: 100%;
+  padding: 1rem;
+  border-collapse: collapse;
+}
+.expenses table thead tr th {
+  padding-bottom: 1rem;
+}
+.expenses table tbody tr {
+  text-align: center;
+}
+.expenses table tbody tr:nth-child(even) {
+  background: #eceaea;
+}/*# sourceMappingURL=expensesTable.css.map */

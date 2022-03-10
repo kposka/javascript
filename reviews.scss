@@ -1,0 +1,31 @@
+.reviewsSection{
+    background:White;
+    margin:1rem;
+    
+    h2{
+        padding:1rem;
+        border-bottom:1px solid rgb(199, 198, 198);
+    }
+    .reviews{
+        display:flex;
+        flex-direction:column;
+        margin:1rem;
+        overflow-y:scroll;
+        overflow-x:hidden;
+        max-height:20rem;
+        .date{
+            margin-top:1rem;
+            color:rgb(187, 184, 184);
+        }
+        .user{
+            font-size:1.25rem;
+        }
+        .time{
+            color:rgb(173, 169, 169);
+            margin-left:0.75rem;
+        }
+        .text{
+            margin-right: 3rem;
+        }
+    }
+}
